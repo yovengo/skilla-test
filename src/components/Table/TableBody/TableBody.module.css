@@ -1,0 +1,29 @@
+.tableBodyRow:hover {
+    background: #F8FAFD;
+}
+
+.tableBodyCell {
+    padding: 17px 0 16px 0;
+    color: #122945;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.tableBodyCell:nth-child(5) {
+    color: #5E7793;
+}
+
+.tableBodyCell:not(:first-child) {
+    border-top: 1px solid #EAF0FA;
+}
+
+.tableBodyCell:last-child {
+    text-align: right;
+    padding-right: 40px;
+}
+
+.tableBodyCell:first-child {
+    padding-left: 40px;
+}

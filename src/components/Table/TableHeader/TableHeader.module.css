@@ -1,0 +1,60 @@
+.tableHeadCell {
+    padding: 0;
+    text-align: left;
+}
+
+.tableHeadCell:first-child {
+    width: 6.91%;
+    padding-left: 40px;
+}
+
+.tableHeadCell:nth-child(2) {
+    width: 6.47%;
+}
+
+.tableHeadCell:nth-child(3) {
+    width: 9.49% ;
+}
+
+.tableHeadCell:nth-child(4) {
+    width: 25.9%;
+}
+
+.tableHeadCell:nth-child(5) {
+    width: 15.74%;
+}
+
+.tableHeadCell:nth-child(6) {
+    width: 26.54%;
+}
+
+.tableHeadCell:last-child {
+    width: 6.47%;
+    padding-right: 40px;
+}
+
+.tableHeadCellText {
+    display: flex;
+    align-items: center;
+    color: #5E7793;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 148%;
+}
+
+.tableHeadCellTextWithSort {
+    cursor: pointer;
+}
+
+.sortArrowContainer {
+    position: relative;
+}
+
+.sortArrow {
+    position: absolute;
+    z-index: 10;
+    top: -12px;
+    right: -24px;
+}
