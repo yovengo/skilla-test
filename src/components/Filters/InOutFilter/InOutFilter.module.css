@@ -1,0 +1,41 @@
+.menuBtn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.menuBtnText {
+    margin: 0;
+    line-height: 148%;
+    font-size: 14px;
+    color: #5E7793;
+}
+
+.menuBtnActive {
+    color: #1F46FB;
+}
+
+.menuContent {
+    width: 133px;
+    padding: 4px 0;
+    list-style: none;
+    position: absolute;
+    z-index: 20;
+    top: 94px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.08);
+}
+
+.menuItem {
+    padding: 7px 12px;
+    cursor: pointer;
+    color: #2B2D33;
+    font-size: 12px;
+    line-height: 18px;
+
+}
+
+.menuItemActive {
+    color: #015EF5;
+}

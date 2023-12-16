@@ -1,0 +1,12 @@
+.resetBtn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.resetBtnText {
+    margin: 0;
+    color: #5E7793;
+    font-size: 14px;
+    line-height: 24px;
+}
