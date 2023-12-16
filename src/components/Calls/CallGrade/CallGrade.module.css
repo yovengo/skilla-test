@@ -1,0 +1,33 @@
+.grade {
+    width: fit-content;
+    padding: 6px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 100%
+}
+
+.gradePerfect {
+    border: 1px solid #28A879;
+    background: #DBF8EF;
+    color: #00A775;
+}
+
+.gradeGood {
+    border: 1px solid #ADBFDF;
+    background: #D8E4FB;
+    color: #122945;
+}
+
+.gradeBad {
+    border: 1px solid #EA1A4F;
+    background: #FEE9EF;
+    color: #EA1A4F;
+
+
+}
+
+.scriptNotUsed {
+    font-size: 14px;
+    color: #EA1A4F;
+    line-height: 140%;
+}
